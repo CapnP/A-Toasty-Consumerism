@@ -6,6 +6,7 @@ A custom story line for Frictional Games' atmospheric horror Amnesia: The Dark D
 Collaborators:
 * Tim Cosgrove --- CapnP
 * Daniel Payne --- Payne1610
+* Connor Urwin --- Urwinc
 
 
 
