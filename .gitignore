@@ -168,4 +168,4 @@ pip-log.txt
 # Amnesia Stuff
 #################
 
-.map_cache
+*.map_cache
