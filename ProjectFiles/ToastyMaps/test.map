@@ -5,7 +5,7 @@
             <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 186 0" CameraTarget="0 6 0" CameraZoom="0.4" GridHeight="6" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="25.9286 2.85733 4.46373" CameraTarget="6.57801 0 12.5222" CameraZoom="0.860131" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="3.70036 7.56448 18.7663" CameraTarget="10.0107 0 10.5442" CameraZoom="1.36013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -13,7 +13,7 @@
     </EditorSession>
     <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="">
         <MapContents>
-            <FileIndex_StaticObjects NumOfFiles="7">
+            <FileIndex_StaticObjects NumOfFiles="9">
                 <File Id="0" Path="static_objects/castlebase/wall/default.dae" />
                 <File Id="1" Path="static_objects/castlebase/ceiling/arched.dae" />
                 <File Id="2" Path="static_objects/castlebase/wall/door_frame_arched.dae" />
@@ -21,6 +21,8 @@
                 <File Id="4" Path="static_objects/castlebase/wall/corner_concave_round_short.dae" />
                 <File Id="5" Path="static_objects/castlebase/wall/corner_concave_round_extension.dae" />
                 <File Id="6" Path="static_objects/castlebase/pillar/plain_short.dae" />
+                <File Id="7" Path="static_objects/castlebase/wall/door_way.dae" />
+                <File Id="8" Path="static_objects/castlebase/wall/door_frame.dae" />
             </FileIndex_StaticObjects>
             <FileIndex_Entities NumOfFiles="9">
                 <File Id="0" Path="entities/door/castle_arched01/castle_arched01.ent" />
@@ -38,12 +40,12 @@
                 <File Id="1" Path="textures/decals/muddy_footprints.mat" />
             </FileIndex_Decals>
             <StaticObjects>
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="1" Name="wall_default_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6.5 0 12.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="1" Name="wall_default_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.5 0 12.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="2" Name="wall_default_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="2.75 0 12.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="6" Name="wall_default_4" Rotation="3.14159 8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="6.25 0 12.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="7" Name="wall_default_5" Rotation="3.14159 8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="2.5 0 12.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="9" Name="wall_door_frame_arched_1" Rotation="3.14159 8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="12.25 0 12.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="11" Name="wall_corner_concave_round_short_1" Rotation="-0.0226137 -1.5708 0.0226143" Scale="1 1 1" Tag="" WorldPos="13.25 0 10.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="11" Name="wall_corner_concave_round_short_1" Rotation="3.72529e-009 -0.261801 5.64381e-007" Scale="1 1 1" Tag="" WorldPos="14.5 0 12.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="12" Name="wall_default_6" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="1 0 10.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="13" Name="wall_default_7" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="1 0 7.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="16" Name="wall_default_8" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="1 0 3.5" />
@@ -60,6 +62,49 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="35" Name="ceiling_concave_short_4" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="1 3.75 8.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="36" Name="ceiling_concave_short_5" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="1 3.75 10.5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="38" Name="ceiling_arched_1" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="7.75 6 7.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="99" Name="wall_door_way_1" Rotation="3.14159 2.38498e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="9.5 0 12.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="100" Name="wall_door_way_2" Rotation="0 -3.49691e-007 0" Scale="1 1 1" Tag="" WorldPos="9.5 0 12.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="109" Name="wall_door_frame_1" Rotation="0 -3.49691e-007 0" Scale="1 1 1" Tag="" WorldPos="9.5 0 12.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="110" Name="wall_door_frame_2" Rotation="0 -3.49691e-007 0" Scale="1 1 1" Tag="" WorldPos="2.75 0 18" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="111" Name="wall_door_frame_3" Rotation="0 -3.49691e-007 0" Scale="1 1 1" Tag="" WorldPos="4 0 20.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="112" Name="wall_door_frame_4" Rotation="0 -3.49691e-007 0" Scale="1 1 1" Tag="" WorldPos="12 0 23.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="113" Name="wall_door_frame_5" Rotation="0 -3.49691e-007 0" Scale="1 1 1" Tag="" WorldPos="19 0 18.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="114" Name="wall_door_frame_6" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="18.75 0 17" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="115" Name="wall_door_frame_7" Rotation="0 -3.49691e-007 0" Scale="1 1 1" Tag="" WorldPos="19 0 15.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="116" Name="wall_door_frame_8" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="19.5 0 17" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="117" Name="wall_door_frame_9" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="20.75 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="118" Name="wall_door_frame_10" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="20.25 0 17" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="119" Name="wall_door_frame_11" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="20.75 0 17" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="120" Name="wall_door_frame_12" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="21.25 0 17" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="121" Name="wall_door_frame_13" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="21.5 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="122" Name="wall_door_frame_14" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="21.75 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="123" Name="wall_door_frame_15" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="22 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="124" Name="wall_door_frame_16" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="22 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="125" Name="wall_door_frame_17" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="22.25 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="126" Name="wall_door_frame_18" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="22.25 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="127" Name="wall_door_frame_19" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="22.5 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="128" Name="wall_door_frame_20" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="22.5 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="129" Name="wall_door_frame_21" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="23.25 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="130" Name="wall_door_frame_22" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="23.5 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="131" Name="wall_door_frame_23" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="24 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="132" Name="wall_door_frame_24" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="24.75 0 17" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="133" Name="wall_door_frame_25" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="25 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="134" Name="wall_door_frame_26" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="25.5 0 16.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="135" Name="wall_door_frame_27" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="25.75 0 16.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="136" Name="wall_door_frame_28" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="26.25 0 16.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="137" Name="wall_door_frame_29" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="26.75 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="138" Name="wall_door_frame_30" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="27.25 0 16.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="139" Name="wall_door_frame_31" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="27.75 0 16.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="140" Name="wall_door_frame_32" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="28.5 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="142" Name="wall_door_frame_33" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="29 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="143" Name="wall_door_frame_34" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="29.5 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="144" Name="wall_door_frame_35" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="29.75 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="145" Name="wall_door_frame_36" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="30.25 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="146" Name="wall_door_frame_37" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="30.5 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="147" Name="wall_door_frame_38" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="30.75 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="148" Name="wall_door_frame_39" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="31 0 16.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="149" Name="wall_door_frame_40" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="31.25 0 16" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="150" Name="wall_door_frame_41" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="31.25 0 16.25" />
             </StaticObjects>
             <Primitives>
                 <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 33.25" Corner2UV="0 0" Corner3UV="18.25 0" Corner4UV="18.25 33.25" EndCorner="18.25 0 33.25" Group="0" ID="0" Material="D:/Program Files/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/castlebase/castlebase_floor.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="0 0 0" />
@@ -290,7 +335,7 @@
                         <Indices Array="0 1 2 0 2 3" />
                     </DecalMesh>
                 </Decal>
-                <Decal Active="true" Color="1 1 1 1" CurrentSubDiv="0" Group="0" ID="85" MaterialIndex="0" MaxTriangles="-1" Name="blood_pool01_26" Offset="0.00853252" OnEntity="true" OnPrimitive="true" OnStatic="true" Rotation="-1.54401 -0.00716971 -0.000192118" Scale="1 1 1" SubDiv="1 1" Tag="" WorldPos="9.45935 1.35703 12.8249">
+                <Decal Active="true" Color="1 1 1 1" CurrentSubDiv="0" Group="0" ID="85" MaterialIndex="0" MaxTriangles="-1" Name="blood_pool01_26" Offset="0.00853252" OnEntity="true" OnPrimitive="true" OnStatic="true" Rotation="-1.54401 -0.00716971 -0.000192118" Scale="1 1 1" SubDiv="1 1" Tag="" WorldPos="12.25 1.25 16">
                     <DecalMesh NumInds="0" NumVerts="0" />
                 </Decal>
                 <Decal Active="true" Color="1 1 1 1" CurrentSubDiv="0" Group="0" ID="86" MaterialIndex="0" MaxTriangles="-1" Name="blood_pool01_27" Offset="0.00839427" OnEntity="true" OnPrimitive="true" OnStatic="true" Rotation="-1.72489 -0.78191 -3.03258" Scale="1 1 1" SubDiv="1 1" Tag="" WorldPos="9.8718 1.97739 12.8249">
@@ -403,7 +448,7 @@
                         <Var Name="DisableBreakable" Value="false" />
                     </UserVariables>
                 </Entity>
-                <Entity Active="true" FileIndex="1" Group="0" ID="43" Name="castle_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="9.5 0 12.75">
+                <Entity Active="true" FileIndex="1" Group="0" ID="43" Name="castle_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.25 0 14.5">
                     <UserVariables>
                         <Var Name="CastShadows" Value="true" />
                         <Var Name="StaticPhysics" Value="false" />
@@ -594,6 +639,150 @@
                 <Area Active="true" AreaType="PlayerStart" Group="0" ID="98" Mesh="" Name="PlayerStartArea_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6.25 0 9">
                     <UserVariables />
                 </Area>
+                <Entity Active="true" FileIndex="1" Group="0" ID="101" Name="castle_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="9.5 0 12.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Locked" Value="false" />
+                        <Var Name="OpenAmount" Value="0" />
+                        <Var Name="DisableBreakable" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="102" Name="castle_4" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="14 0 17">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Locked" Value="false" />
+                        <Var Name="OpenAmount" Value="0" />
+                        <Var Name="DisableBreakable" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="103" Name="castle_5" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="13.75 0 16">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Locked" Value="false" />
+                        <Var Name="OpenAmount" Value="0" />
+                        <Var Name="DisableBreakable" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="104" Name="castle_6" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="13.5 0 16.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Locked" Value="false" />
+                        <Var Name="OpenAmount" Value="0" />
+                        <Var Name="DisableBreakable" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="105" Name="castle_7" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="13.5 0 17.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Locked" Value="false" />
+                        <Var Name="OpenAmount" Value="0" />
+                        <Var Name="DisableBreakable" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="106" Name="castle_8" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="13.5 0 15.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Locked" Value="false" />
+                        <Var Name="OpenAmount" Value="0" />
+                        <Var Name="DisableBreakable" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="107" Name="castle_9" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="13.5 0 14.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Locked" Value="false" />
+                        <Var Name="OpenAmount" Value="0" />
+                        <Var Name="DisableBreakable" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="1" Group="0" ID="108" Name="castle_10" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.75 0 15.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Locked" Value="false" />
+                        <Var Name="OpenAmount" Value="0" />
+                        <Var Name="DisableBreakable" Value="false" />
+                    </UserVariables>
+                </Entity>
             </Entities>
             <Misc />
             <StaticObjectCombos />
